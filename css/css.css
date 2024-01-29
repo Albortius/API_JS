@@ -1,0 +1,36 @@
+.slider {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    display: none;
+    position: absolute;
+}
+
+/* Стили для кнопок вперед и назад */
+.button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border: 1px so;
+}
+
+.button-prev {
+    left: 10px;
+}
+
+.button-next {
+    right: 10px;
+}
